@@ -1,16 +1,10 @@
 # 6810610037 โกมล บุญเรือง
 
-num = int(input("Enter a positive integer: "))
-confirm = input("Do you want to continue? (y/n): ")
+
 even_num = 0
 odd_num = 0
+confirm = "y"
 
-while confirm != "y" and confirm != "n":
-    confirm = input("Do you want to continue? (y/n): ")
-if num % 2 == 0:
-    even_num += 1
-else:
-    odd_num += 1
 
 while confirm == "y":
     num = int(input("Enter a positive integer: "))
