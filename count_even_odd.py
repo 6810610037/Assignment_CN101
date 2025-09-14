@@ -5,7 +5,6 @@ even_num = 0
 odd_num = 0
 confirm = "y"
 
-
 while confirm == "y":
     num = int(input("Enter a positive integer: "))
     if num % 2 == 0:
