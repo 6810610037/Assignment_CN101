@@ -13,7 +13,6 @@ while keep_going == "y":
     energy_unit = int(input("Enter the energy consumption (kilowatt-hours): "))
 
     while energy_unit < 0 or energy_unit > 1000:
-        print("Please Enter [0-1000]")
         energy_unit = int(input("Enter the energy consumption (kilowatt-hours): "))
 
     if energy_unit == 0:
