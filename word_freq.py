@@ -1,4 +1,5 @@
 # 6810610037 โกมล บุญเรือง
+
 list1 = []
 count_list = []
 while True:
