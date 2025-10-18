@@ -15,4 +15,4 @@ while True:
 
 print(f"Before: {normal_count} items")
 print(f"After: {unique_count} items")
-print(f"Unique: {list1}")
+print(f"Uniquew: {list1}")
