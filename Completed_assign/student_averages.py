@@ -32,7 +32,7 @@ def print_report(averages, above_threshold, highest):
     highest_name = highest[0]
     highest_score = highest[1]
     for name, average in averages:
-        print(f"{name} : {average}")
+        print(f"{name} : {average:.2f}")
     print()
     print(f"Students with an average score above 75: {above_threshold}")
     print()
